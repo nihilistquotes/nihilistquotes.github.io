@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Ruthie&display=swap');
 
+@mixin theme1 {
+  background-color: black;
+  color: white;
+}
+
+@mixin theme2 {
+  background-color: pink;
+  color: white;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -14,8 +24,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background-color: black;
-  color: white;
+  @include theme1;
 }
 
 .App {

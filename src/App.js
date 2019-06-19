@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Quotes from './Quotes.js';
 import Footer from './Footer.js';

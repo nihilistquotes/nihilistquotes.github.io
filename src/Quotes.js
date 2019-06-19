@@ -14,7 +14,7 @@ class Quotes extends React.Component {
   };
 
   componentDidMount(){
-      setTimeout(this.changeQuote, 1000);
+      setTimeout(this.changeQuote, 0);
       //setInterval(this.toggleHidden, 4000);
   }
   componentWillUnmount(){
