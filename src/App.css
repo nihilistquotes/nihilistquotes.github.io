@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ruthie&display=swap');
+
 html {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
   height: 100%;
   width: 100%;
 }
@@ -17,21 +24,45 @@ body {
   text-align: center;
 }
 
+.Quotes {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(30px + 3vw);
+  font-family: 'Ruthie', cursive;
+  cursor: pointer;
+  word-spacing: 10px;
+}
+
 .Footer {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 80px;
-  height: 80px;
   margin: 20px;
-  padding: 20px;
-  font-size: 1.25em;
+  padding: 10px 20px;
+  font-size: 0.8em;
   text-align: right;
   text-transform: uppercase;
-  color: #cecbcb;
-  background-color: #2d2d2d;
+  color: black;
+  background-color: white;
 }
 
 .Footer .Title {
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.Footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#activeQuote {
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+.hidden {
+  opacity: 0;
 }
