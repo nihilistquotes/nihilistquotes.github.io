@@ -7,6 +7,7 @@ class Quotes extends React.Component {
       { title: "You are a victim of your past." },
       { title: "What contains the box?" },
       { title: "What you don't wanna think about wastes your time." },
+      { title: "The only thing real is your mind. Everything else doesn't matter."}
     ],
     quote: "",
     index: 0,

@@ -54,8 +54,7 @@ body {
   font-size: 0.8em;
   text-align: right;
   text-transform: uppercase;
-  color: black;
-  background-color: white;
+  color: gray;
 }
 
 .Footer .Title {
@@ -70,6 +69,8 @@ body {
 #activeQuote {
   transition: opacity 1s;
   -webkit-transition: opacity 1s;
+  box-sizing: border-box;
+  padding: 10px 30px;
 }
 
 .hidden {
