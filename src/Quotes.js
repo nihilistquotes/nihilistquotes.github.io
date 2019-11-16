@@ -7,7 +7,15 @@ class Quotes extends React.Component {
       { title: "You are a victim of your past." },
       { title: "What contains the box?" },
       { title: "What you don't wanna think about wastes your time." },
-      { title: "The only thing real is your mind. Everything else doesn't matter."}
+      { title: "The only thing real is your mind. Everything else doesn't matter."},
+      { title: "You are your habits." },
+      { title: "You won't regret making a choice if you don't make a choice." },
+      { title: "Life is a pattern of patterns." },
+      { title: "Ignorance is bliss, as long as it lasts." },
+      { title: "We're not the champions of evolution; we're the byproducts." },
+      { title: "The more you change, everything stays the same." },
+      { title: "Just look at the night sky to see how insignificant all of this is." },
+      
     ],
     quote: "",
     index: 0,
